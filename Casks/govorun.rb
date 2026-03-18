@@ -11,4 +11,9 @@ cask "govorun" do
   depends_on arch: :arm64
 
   app "Govorun.app"
+
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/Govorun.app"]
+  end
 end
