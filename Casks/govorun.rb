@@ -1,6 +1,6 @@
 cask "govorun" do
-  version "0.2.1"
-  sha256 "94b5d3935d5021c8339f74e443b679533c023f5a0db9b629acd076cf0652db71"
+  version "0.2.2"
+  sha256 "7161487ea4e1e18aa1f9c53ca99108d3070c0d8cc396f35c705a9e1f32dd2b1c"
 
   url "https://github.com/sanyasamineva0x/govorun-app/releases/download/v#{version}/Govorun.dmg"
   name "Говорун"
